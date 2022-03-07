@@ -1,0 +1,625 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Poppins:ital,wght@1,300&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@900&family=Poppins:wght@900&display=swap');
+
+/* font-family: 'Nunito Sans', sans-serif;
+font-family: 'Poppins', sans-serif; */
+
+body {
+    width: 100%;
+}
+
+.section-m1 {
+    margin: 40px 0;
+}
+.section-p1 {
+    padding: 40px 80px;
+}
+
+/* button */
+.bg-primary {
+    background-color: #e5345b !important;
+    color: azure;
+}
+
+.btn:not(.nav-btns button) {
+    background-color: azure;
+    color: pink;
+    padding: 10px 28px;
+    border-radius: 25px;
+    border: 1px solid;
+}
+
+.btn:not(.nav-btns button):hover {
+    background-color: #e5345b;
+    color: azure;
+    border-color: azure;
+}
+
+/*navbar*/
+.navbar {
+    box-shadow: 0 3px 9px 3px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand img {
+    width: 30px;
+}
+
+.navbar-brand span {
+    letter-spacing: 2px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    margin-left: 8px;
+}
+
+#navMenu a:hover {
+    color: #e5345b !important;
+}
+
+.nav-item {
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.05);
+}
+
+
+/* header*/
+#header {
+    background: url("imgs/banner1.jpg") top/cover no-repeat;
+}
+
+.carousel-inner h1 {
+    font-size: 60px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;   
+}
+
+/* collection */
+#page-header {
+    background-image: url("imgs/banner.jpg");
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+#page-header h2{
+    color: azure;
+    font-family: 'Nunito Sans', sans-serif;
+    margin-top: 150px;
+    font-size: 44px;
+}
+#page-header p{
+    color: azure;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 32px;
+    
+}
+
+/* Single Products - prodDetails */
+#prodDetails {
+    display: flex;
+    margin-top: 20px;    
+}
+
+#prodDetails .singleProDet {
+    width: 50%;
+    padding-top: 50px;
+    
+    
+}
+
+#prodDetails .singleProDet h4 {
+    padding: 40px 0 20px 0;
+}
+#prodDetails .singleProDet h2 {
+    font-size: 26px;
+}
+#prodDetails .singleProDet select{
+    padding: 5px 10px;
+    display: block;
+    margin-bottom: 10px;
+}
+#prodDetails .singleProDet input {
+    width: 50px;
+    height: 47px;
+    padding-left: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+#prodDetails .singleProDet button {
+    font-size: 14px;    
+    height: 47px;
+    font-weight: 600;
+    padding: 0 1.25em;
+    color: white;
+    background-color: #e5345b;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid white;
+    outline: none;
+    transition: 0.2s; 
+}
+
+#prodDetails .singleProDet span {
+    line-height: 25px;
+}
+
+
+#prodDetails .singleProImg {
+    width: 40%;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.smallImgGroup {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    
+}
+
+.smallImg-col {
+    flex-basis: 24%;
+    cursor: pointer;
+}
+
+/* specials */
+#page-header2 {
+    background-image: url("imgs/specials.jpg");
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+#page-header2 h2{
+    color: #e5345b;
+    font-family: 'Nunito Sans', sans-serif;
+    margin-top: 150px;
+    font-size: 44px;
+}
+#page-header2 p{
+    color: #879598;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 32px;
+}
+
+
+/* title*/
+.title h2::before {
+    position: absolute;
+    content: "";
+    width: 4px;
+    height: 50px;
+    background-color: #e5345b;
+    left: -30px;
+    top: 70%;
+    transform: translateY(-50%);
+    /* margin-top: 30px; */
+}
+
+/* Collection */
+/* .active-filtered-btn {
+    background-color: #e5345b !important;
+    color: azure;
+} */
+
+/* .collection-img span {
+    top: -500px;
+    right: -10px;
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+
+} */
+
+#newColbtn {
+    text-align: center !important;
+    align-items: center !important;
+}
+
+#products .pro-container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    flex-wrap:wrap;
+}
+
+#products h2 {
+    margin-top: 40px;
+    margin-bottom: 30px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: bold;
+}
+
+
+#products .pro {
+    width: 20%;
+    min-width: 250px;
+    padding: 25px 20px;
+    padding-bottom: 15px;
+    border: 1px solid #e5345b;
+    border-radius: 25px;
+    margin: 30px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.2);
+    background-color: #eeeee4;
+    transition: 0.2s ease;
+
+}
+
+#products .pro:hover {
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.5);
+
+}
+
+#products .pro img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+#products .pro p {
+    font-weight: bold;
+}
+
+
+/* banner */
+#banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-image: url("imgs/banner3.jpg");
+    width: 100%;
+    height: 40vh;
+    background-position: center;
+    background-size: cover;
+    margin-top: 40px;
+}
+
+#banner h4 {
+    color: black;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+#banner h2 {
+    color: azure;
+    font-size: 30px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: bold;
+    padding: 10px 0;
+}
+
+#banner h2:hover {
+    color: #e5345b;
+}
+
+#banner h2 span {
+    color: azure;
+    
+}
+
+#banner button {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 30px;
+    color: black;
+    border-radius: 35px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+#banner button:hover {
+    color: #879598;
+    background-color: #f5ca39;
+}
+
+#sm-banner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+
+#sm-banner .banner-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-image: url("imgs/shoebanner.jpg");
+    min-width: 580px;
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+    padding: 30px;
+    border-radius: 5px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+   
+}
+
+#sm-banner .banner-box2 {
+    background-image: url("imgs/smban.jpg");
+}
+
+#sm-banner .banner-box3 {
+    background-image: url("imgs/smbanm.jpg");
+}
+
+#sm-banner h4 {
+    color: red;
+    font-size: 20px;
+    font-weight: 900;
+    
+    
+}
+
+#sm-banner h2 {
+    color: azure;
+    font-size: 28px;
+    font-weight: 800;
+}
+#sm-banner h2:hover {
+    color: #e5345b;
+}
+
+#sm-banner button {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 30px;
+    color: white;
+    background-color: transparent;
+    border-color: #e5345b;
+    border-radius: 35px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+#sm-banner .banner-box:hover button {
+    background-color: white;
+    color: #e5345b;
+
+}
+
+
+/* specials */
+
+.shortimg img {
+    width:inherit;
+}
+
+/* newsletter */
+#newsletter {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-image: url("imgs/b.jpg");
+    background-repeat: no-repeat;
+    background-position: 30% 40%;
+    padding: 50px 90px;
+    margin: 40px 0;       
+}
+
+#newsletter h4 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    color: azure;
+}
+
+#newsletter p {    
+    font-size: 16px;
+    font-weight: 700;
+    color: #022a33;
+}
+
+#newsletter p span {    
+    color: #f5ca39;
+}
+
+#newsletter .form {
+    display: flex;
+    /* width: 40%; */
+}
+
+#newsletter input {
+    height: 3.125rem;
+    font-size: 14px;
+    padding: 0 1.25em;
+    width: 100%;
+    border: 1px solid #e5345b;
+    border-radius: 5px;
+    outline: none;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+#newsletter button {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 0 1.25em;
+    color: black;
+    background-color: azure;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid #e5345b;
+    outline: none;
+    transition: 0.2s;   
+    border-top-left-radius: 0;   
+    border-bottom-left-radius: 0;  
+}
+    
+#newsletter button:hover {
+        color: #879598;
+        background-color: #f5ca39;
+}
+
+/* footer */
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer .col {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+footer h4 {
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+
+footer p {
+    font-size: 13px;
+    margin: 0 0 8px 0;
+}
+
+footer a {
+    font-size: 13px;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 10px;
+}
+
+footer .follow {
+    margin-top: 20px;
+}
+
+footer .follow i {
+    color:#e5345b;
+    padding-right: 5px;
+    cursor:pointer;
+}
+
+footer .install .row img {
+    border: 1px solid #e5345b;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 10rem;
+    border-radius: 5px;
+    
+    
+}
+
+footer .install img {
+    margin: 10px 0 15px 0;
+    width: 10rem;
+    text-align: center;
+}
+
+footer .copyright {
+    width: 100%;
+    text-align: center;
+
+}
+
+/* @media (max-width: 790px){
+    .navbar .container, .navbar .container-fluid, .navbar .container-lg, .navbar .container-md, .navbar .container-sm, .navbar .container-xl {
+        display: -ms-flexbox;
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -ms-flex-align: center;
+        align-items: center;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+    }
+
+} */
+
+/* media queries*/
+@media(min-width: 592px) {
+    .nav-item{
+        border-bottom: none;
+    }
+}
+
+@media (max-width: 447px) {
+    /* single product */
+    #prodDetails {
+        display: flex;
+        flex-direction: column;
+    }
+    /* #mainImg{
+        width: 100%;
+        margin-right: 0px;
+    } */
+    #prodDetails .singleProImg {
+        width: 100%;
+        margin: 0;
+       
+    }
+
+    #prodDetails .singleProDet {
+        width: 100%;        
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Header */
+
+/* #header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    background-color: blanchedalmond;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+}
+
+/* .header img {
+   width: 2rem;
+   height: 2rem;
+} */
+
+/* #navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbar li {
+    list-style: none;
+    padding: 0 20px;
+} */
